@@ -25,6 +25,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y python-dev libldap2-dev libsasl2-dev libssl-dev
           pip install --upgrade pip
+          pip install "setuptools<58"
           pip install -r requirements.txt
           pip install -r requirements-dev.txt
       - name: black
@@ -62,6 +63,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y python-dev libldap2-dev libsasl2-dev libssl-dev
           pip install --upgrade pip
+          pip install "setuptools<58"
           pip install -r requirements.txt
           pip install -r requirements-dev.txt
           pip install -r requirements-extra.txt
@@ -101,6 +103,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y python-dev libldap2-dev libsasl2-dev libssl-dev
           pip install --upgrade pip
+          pip install "setuptools<58"
           pip install -r requirements.txt
           pip install -r requirements-dev.txt
           pip install -r requirements-extra.txt
@@ -138,6 +141,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y python-dev libldap2-dev libsasl2-dev libssl-dev freetds-bin unixodbc-dev tdsodbc
           pip install --upgrade pip
+          pip install "setuptools<58"
           pip install -r requirements.txt
           pip install -r requirements-dev.txt
           pip install -r requirements-extra.txt
@@ -170,6 +174,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y python-dev libldap2-dev libsasl2-dev libssl-dev
           pip install --upgrade pip
+          pip install "setuptools<58"
           pip install -r requirements.txt
           pip install -r requirements-dev.txt
           pip install -r requirements-extra.txt
